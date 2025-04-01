@@ -49,11 +49,11 @@ export default function Textformat(props) {
           <div className="mb-3">
            <textarea className="form-control" onChange = {handleOnChange} style = {{backgroundColor: props.mode === "dark"?"#4a5759":"white" , color: props.mode === "dark"?"white":"black"}} id="MyBox" value = {text} rows="8" placeholder='Enter Text Here'></textarea>
           </div>
-          <button className = "btn btn-primary mx-2" onClick = {handleUpClick}>Convert To Uppercase</button>
-          <button  className = "btn btn-primary mx-2" onClick = {handleLoClick}>Conver To Lowercase</button>
-          <button className = "btn btn-primary mx-2" onClick = {handleClearClick}>Clear Text</button>
-          <button className = "btn btn-primary mx-2" onClick = {handleCopyClick}>Copy Text</button>
-          <button className = "btn btn-primary mx-2" onClick = {handleSpaceClick}>Clear Space</button>
+          <button className = "btn btn-primary mx-2 my-2" onClick = {handleUpClick}>Convert To Uppercase</button>
+          <button  className = "btn btn-primary mx-2 my-2" onClick = {handleLoClick}>Conver To Lowercase</button>
+          <button className = "btn btn-primary mx-2 my-2" onClick = {handleClearClick}>Clear Text</button>
+          <button className = "btn btn-primary mx-2 my-2" onClick = {handleCopyClick}>Copy Text</button>
+          <button className = "btn btn-primary mx-2 my-2" onClick = {handleSpaceClick}>Clear Space</button>
     </div>
 
     <div className = "container my-2" style = {{color: props.mode === "dark"?"white":"black"}}>
